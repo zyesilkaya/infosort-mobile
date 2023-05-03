@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_drawer"
+    app:startDestination="@id/order">
+
+    <fragment
+        android:id="@+id/order"
+        android:name="com.example.deneme1.waiter.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.deneme1.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.deneme1.userAuth.SplashFragment"
+        android:label="SplashFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.deneme1.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" />
+
+</navigation>

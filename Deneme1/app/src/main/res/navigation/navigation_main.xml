@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/splashFragment2">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.deneme1.userAuth.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.example.deneme1.userAuth.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/splashToLogin"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>

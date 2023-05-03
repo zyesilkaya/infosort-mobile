@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/order"
+    android:title="Orders"
+    android:icon="@drawable/ic_keyboard_arrow_right" />
+    </group>
+
+    <group >
+        <item android:id="@+id/menu"
+            android:title="Menü"
+            android:icon="@drawable/ic_keyboard_arrow_right"/>
+    </group>
+
+    <group>
+        <item android:id="@+id/profile"
+            android:title="Profil"
+            android:icon="@drawable/ic_keyboard_arrow_right"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/dmEmployees"
+            android:title="Çalışanlar"
+            android:icon="@drawable/ic_keyboard_arrow_right"
+            />
+    </group>
+
+</menu>

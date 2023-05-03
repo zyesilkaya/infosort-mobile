@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InfoSort</string>
+    <string name="login_bottomText">Kurumsal üyelik için <u>tıklayınız</u>.</string>
+    <string name="login_forgotPasswordText"><u>Şifremi unuttum</u>.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="back4app_server_url"></string>
+    <string name="back4app_app_id"></string>
+    <string name="back4app_client_key"></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
